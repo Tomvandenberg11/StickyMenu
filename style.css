@@ -1,0 +1,47 @@
+body {
+	background-color: skyblue;
+	font-family: sans-serif;
+}
+
+nav {
+	background-color: #333;
+	height: 2em;
+	display: block;
+	width: 100%;
+	transition-property: top;
+	transition-duration: 500ms;
+	top: 0;
+	position: fixed;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 2em;
+	overflow: hidden;
+	margin-left: 30%;
+	
+}
+
+nav ul li {
+	float: left;
+	padding: 0 2em;
+}
+
+nav ul li:hover {
+	background-color: #777;
+}
+
+nav ul li a {
+	color: whitesmoke;
+	line-height: 2em;
+	text-decoration: none;
+}
+
+p {
+	display: block;
+	text-align: center;
+	width: 50em;
+	margin-left: 20%;
+}
